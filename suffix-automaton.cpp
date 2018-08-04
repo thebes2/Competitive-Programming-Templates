@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // suffix automaton can be traversed like a normal suffix trie 
 // but can be constructed in O(|S|)
 struct suf_a{int len,lnk; map<char,int> e;}sa[2*MN];
