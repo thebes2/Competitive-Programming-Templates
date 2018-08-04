@@ -20,6 +20,6 @@ int main(){
       if(!vis[v]) vis[v]=1, q.push(v);
   }
   for(i=1;i<=N;i++)
-    printf("%d\n",vis[i]);
+    if(vis[i]) printf("%d\n",i);
    return 0;
 }
